@@ -9,14 +9,9 @@ body {
 
 .container {
     display: grid;
-
-
     grid-template-columns: 2fr 1fr;
-
-    /* Header, content, footer */
     grid-template-rows: auto auto auto;
-
-    min-height: 100vh;
+    min-height: 100vh
 }
 
 
